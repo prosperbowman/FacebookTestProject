@@ -1,0 +1,359 @@
+body{
+    /* background-color: blue; */
+    background-color: rgba(221, 221, 221, 221)
+
+}
+section{
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+}
+section .lift{
+    /* background-color: blueviolet; */
+    width: 850px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+.lift .face{
+    color: blue;
+    width: 100px;
+    margin-top: 140px;
+    margin-left: 180px;
+    font-size: 60px;
+    font-family: arial;
+    font-weight: bold;
+}
+.lift .text{
+    color: black;
+    width: 450px;   
+    margin-left: 180px;
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: arial;
+}
+section .right{
+    /* background-color: greenyellow; */
+    width: 800px;
+    height: 500px;
+}
+form{
+    padding-top: 20px;
+    margin-top: 33px;
+    background-color: white;
+    width: 510px;
+    height: 345px;
+    align-items: center;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+form div{
+    margin: px;
+    text-align: center;
+    font-size: 30px;
+}
+
+form input[type="text"]{
+    padding: 8px;
+    margin-top: 10px;
+    background-color: white;
+    font-size: 15px;
+    border-radius: 5px;
+    width: 450px;
+    height: 40px;
+    box-shadow: 1px 1px 3px blue;
+    padding-left: 15px;
+    border: 0px gainsboro;
+    border: none;
+}
+
+form button[type="button1"]{
+    cursor: pointer;
+    color: white;
+    background-color: blue;
+    width: 475px;
+    height: 48px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 15px;
+    border: 0px gainsboro;
+    border: none;
+}
+
+form button[type="button2"]{
+    cursor: pointer;
+    color: blue;
+    background-color: white;
+    width: 360px;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-weight: bold;
+    border: none;
+}
+.line hr{
+    width: 450px;
+    align-items: center;
+}
+form button[type="button3"]{
+    cursor: pointer;
+    color: white;
+    background-color: green;
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 10px;
+    border: none;
+}
+section .buttom{
+    margin-top: 10px;
+}
+section .buttom a{
+    margin-top: 30px;
+    margin-left: 115px;
+    font-weight: 600;
+    font-family: arial;
+}
+.buttom a{
+    outline: 0px;
+    color: black;
+    /* background-color: bisque; */
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 480px) and  (min-width: 360px){
+    section{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        display: block;
+    }
+    section .lift{
+        /* background-color: blueviolet; */
+        /* width: 250px; */
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+    }
+    .lift .face{
+        color: blue;
+        width: 80px;
+        margin-top: 90px;
+        margin-left: 80px;
+        font-size: 40px;
+        font-family: arial;
+        font-weight: bold;
+    }
+    .lift .text{
+        color: black;
+        width: 250px;   
+        margin-left: 40px;
+        margin-top: 20px;
+        font-size: 15px;
+        font-weight: 700;
+        font-family: arial;
+    }
+    
+    section .right{
+        /* background-color: greenyellow; */
+        width: 800px;
+        height: 500px;
+    }
+
+    form{
+        padding-top: 20px;
+        margin-top: 70px;
+        background-color: white;
+        width: 310px;
+        height: 345px;
+        align-items: center;
+        margin-left: 20px;
+        border-radius: 5px;
+    }
+    form input[type="text"]{
+        padding: 8px;
+        margin-top: 10px;
+        background-color: white;
+        font-size: 15px;
+        border-radius: 5px;
+        width: 250px;
+        height: 40px;
+        box-shadow: 1px 1px 3px blue;
+        padding-left: 15px;
+        border: 0px gainsboro;
+        border: none;
+    }
+    form button[type="button1"]{
+        cursor: pointer;
+        color: white;
+        background-color: blue;
+        width: 275px;
+        height: 48px;
+        border-radius: 5px;
+        font-size: 15px;
+        font-weight: bold;
+        margin-top: 15px;
+        border: 0px gainsboro;
+        border: none;
+    }
+    form button[type="button2"]{
+        cursor: pointer;
+        color: blue;
+        background-color: white;
+        width: 260px;
+        height: 40px;
+        border-radius: 5px;
+        margin-top: 10px;
+        font-weight: bold;
+        border: none;
+    }
+    .line hr{
+        width: 200px;
+        align-items: center;
+    }
+    form button[type="button3"]{
+        cursor: pointer;
+        color: white;
+        background-color: green;
+        width: 150px;
+        height: 40px;
+        border-radius: 5px;
+        font-weight: bold;
+        font-size: 12px;
+        margin-top: 10px;
+        border: none;
+    }
+    section .buttom{
+        margin-top: 20px;
+        font-size: 12px;
+    }
+    section .buttom a{
+        margin-left: 26px;
+        font-weight: bold;
+        font-family: arial;
+        /* color: blue; */
+    }
+    
+}
+
+@media only screen and (max-width: 995px) and  (min-width: 580px){
+    section{
+
+    }
+    section .lift{
+        /* background-color: blueviolet; */
+        width: 850px;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .lift .face{
+        color: blue;
+        width: 100px;
+        margin-top: 200px;
+        margin-left: 40px;
+        font-size: 40px;
+        font-family: arial;
+        font-weight: bold;
+    }
+    .lift .text{
+        color: black;
+        width: 350px;   
+        margin-left: 30px;
+        margin-top: 5px;
+        font-size: 13px;
+        font-weight: 700;
+        font-family: arial;
+    }
+    section .right{
+        /* background-color: greenyellow; */
+        width: 800px;
+        height: 100px;
+    }
+    form{
+        padding-top: 20px;
+        margin-top: 110px;
+        background-color: white;
+        width: 360px;
+        height: 345px;
+        align-items: center;
+        margin-left: 5px;
+        border-radius: 5px;
+    }
+
+    form input[type="text"]{
+        padding: 8px;
+        margin-top: 10px;
+        background-color: white;
+        font-size: 15px;
+        border-radius: 5px;
+        width: 290px;
+        height: 40px;
+        box-shadow: 1px 1px 3px blue;
+        padding-left: 15px;
+        border: 0px gainsboro;
+        border: none;
+    }
+    
+    form button[type="button1"]{
+        cursor: pointer;
+        color: white;
+        background-color: blue;
+        width: 290px;
+        height: 48px;
+        border-radius: 5px;
+        font-size: 15px;
+        font-weight: bold;
+        margin-top: 15px;
+        border: 0px gainsboro;
+        border: none;
+    }
+    
+    form button[type="button2"]{
+        cursor: pointer;
+        color: blue;
+        background-color: white;
+        width: 360px;
+        height: 40px;
+        border-radius: 5px;
+        margin-top: 10px;
+        font-weight: bold;
+        border: none;
+    }
+    .line hr{
+        width: 350px;
+        align-items: center;
+    }
+    form button[type="button3"]{
+        cursor: pointer;
+        color: white;
+        background-color: green;
+        width: 150px;
+        height: 40px;
+        border-radius: 5px;
+        font-weight: bold;
+        font-size: 14px;
+        margin-top: 10px;
+        border: none;
+    }
+    section .buttom a{
+        margin-top: 30px;
+        margin-left: 23px;
+        font-weight: 600;
+        font-family: arial;
+    }
+    section .buttom{
+        margin-top: 20px;
+    }
+    .buttom a{
+        outline: 0px;
+        color: black;
+        /* background-color: bisque; */
+        text-decoration: none;
+    }
+}
